@@ -1,4 +1,6 @@
 import Redis from 'ioredis'
-const redis = new Redis() //default localhost:6379
+import dotenv from 'dotenv'
+dotenv.config()
+const redis = new Redis("127.0.0.1:6379") //default localhost:6379
 
 export default redis
