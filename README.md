@@ -74,11 +74,8 @@ ingestion.
 #### Windows (Portable ZIP)
 
 1.  Download ZIP: https://github.com/tporadowski/redis/releases
-2.  Extract and run:
+2.  Extract and navigate to extracted folder and run (double click):
 
-```{=html}
-<!-- -->
-```
     redis-server.exe
 
 #### macOS
@@ -108,7 +105,7 @@ ingestion.
 
 ### Step 3 --- Add .env File
 
-    MONGO_URI=your_mongodb_connection_string
+    MONGO_URI=mongodb+srv://100asadqureshi_db_user:U91KRwDYhJuQOWzL@cluster0.4dtmvoh.mongodb.net/?appName=Cluster0
 
 ------------------------------------------------------------------------
 
